@@ -1,4 +1,4 @@
-﻿# The Perfect Tweet - How does tweet characteristics?
+﻿# The Perfect Tweet -  How Does Tweet Characteristics Affect It's Popularity?
 
 [Roee Shraga](https://sites.google.com/view/roee-shraga), Phd Candidate, Technion.<br />
 Gregory Goren, MSc Student, Technion.
