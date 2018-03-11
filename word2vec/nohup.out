@@ -1,0 +1,81 @@
+Traceback (most recent call last):
+  File "causal_interface.py", line 2, in <module>
+    from word2vec_platform.average_treatement_effect import get_average_treatment_effect
+ModuleNotFoundError: No module named 'word2vec_platform'
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:110: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  has["text_vector"]=None
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  no["text_vector"]=None
+in preprocess
+Loading the model, this can take some time...
+Traceback (most recent call last):
+  File "causal_interface.py", line 9, in <module>
+    treatment_features,no_treatment_features = p.get_averages_for_tests_dots(df)
+  File "/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py", line 121, in get_averages_for_tests_dots
+    vector+=model.syn0norm[model.vocab[token]]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:110: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  has["text_vector"]=None
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  no["text_vector"]=None
+in preprocess
+Loading the model, this can take some time...
+Traceback (most recent call last):
+  File "causal_interface.py", line 9, in <module>
+    treatment_features,no_treatment_features = p.get_averages_for_tests_dots(df)
+  File "/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py", line 121, in get_averages_for_tests_dots
+    vector+=model.syn0norm[model.vocab[token]]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:110: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  has["text_vector"]=None
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  no["text_vector"]=None
+in preprocess
+Loading the model, this can take some time...
+Traceback (most recent call last):
+  File "causal_interface.py", line 9, in <module>
+    treatment_features,no_treatment_features = p.get_averages_for_tests_dots(df)
+  File "/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py", line 121, in get_averages_for_tests_dots
+    vector+=model.syn0norm[model.vocab[token]]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+in preprocess
+Loading the model, this can take some time...
+calculation average treatment effect
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:110: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  has["text_vector"]=None
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  no["text_vector"]=None
+/lv_local/home/sgregory/causal_inference/word2vec_platform/preprocess.py:134: RuntimeWarning: invalid value encountered in true_divide
+  vector=vector/d
